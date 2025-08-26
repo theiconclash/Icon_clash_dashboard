@@ -816,8 +816,8 @@ if st.session_state.get('show_all_time', False):
         
         st.markdown("---")
         st.markdown("**🏅 Record Breakers:**")
-        st.markdown(f"**🔥 Highest Kills:** @{all_time_stats['highest_kills_player']} ({all_time_stats['highest_kills_count']})")
-        st.markdown(f"**💥 Highest Damage:** @{all_time_stats['highest_damage_player']} ({all_time_stats['highest_damage_amount']:,.0f})")
+        st.markdown(f"**🔥 Highest Kills in 1 match:** @{all_time_stats['highest_kills_player']} ({all_time_stats['highest_kills_count']})")
+        st.markdown(f"**💥 Highest Damage in 1 match:** @{all_time_stats['highest_damage_player']} ({all_time_stats['highest_damage_amount']:,.0f})")
 
     # ========= ALL DAILY WINNERS TABLE ========= #
     st.markdown("### 🏆 All Daily Winners")
